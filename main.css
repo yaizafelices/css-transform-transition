@@ -1,18 +1,57 @@
-.shadow {
+.shadow-translate {
     width: 100px;
     height: 100px;
     background: lightgrey;
     border-radius: 50%;
+    margin: 20px;
+
 }
 
-.circle {
+.circle-translate{
     width: 100px;
     height: 100px;
     background-color: #D9AFD9;
     background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
     border-radius: 50%;
+
 }
 
-.circle:hover {
+.circle-translate:hover {
     transform: translate(20px, -20px);
+}
+
+.circle-scale {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient( 109.6deg,  rgba(245,56,56,1) 11.2%, rgba(234,192,117,1) 78% );
+    margin: 20px;
+}
+
+.circle-scale:hover {
+    transform: scale(0.8); 
+}
+
+.circle-skew {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    background: lightcoral;
+    margin: 20px;
+}
+
+.circle-skew:hover {
+    transform: skew(20deg); 
+}
+
+.circle-rotate {
+    width: 150px;
+    height: 100px;
+    border-radius: 20%;
+    margin: 30px;
+    background-image: linear-gradient( 109.6deg,  rgba(255,179,189,1) 1.8%, rgba(254,248,154,1) 50.6%, rgba(161,224,186,1) 100.3% );
+}
+
+.circle-rotate:hover {
+    transform: rotate(35deg); 
 }
