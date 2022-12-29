@@ -1,0 +1,10 @@
+.item-skew {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    background: lightcoral;
+}
+
+.item-skew:hover {
+    transform: skew(20deg); 
+}
