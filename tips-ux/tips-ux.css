@@ -1,0 +1,13 @@
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    transition: transform 1.5s linear;
+
+}
+
+.container:hover{
+    transition: transform 1s linear;
+    transform: translateX(200px);
+}
