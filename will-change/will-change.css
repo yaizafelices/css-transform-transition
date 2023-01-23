@@ -1,0 +1,22 @@
+button{
+    width: 100px;
+    height: 30px;
+    background-color: palegoldenrod;
+}
+
+.better{
+    will-change: transform;
+    transition: transform 500ms;
+}
+
+.better:hover{
+    transform: translateY(5px);
+}
+
+.worse{
+    transition: margin-top 500ms;
+}
+
+.worse:hover{
+    margin-top: 5px;
+}
